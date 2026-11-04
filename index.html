@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Samuel Sex Mix</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: #0a0a0a;
+            color: #f0f0f0;
+            padding: 50px 20px;
+            font-size: 28px;
+            line-height: 1.4;
+        }
+        h1 {
+            text-align: center;
+            color: #ff69b4;
+            font-size: 42px;
+            margin-bottom: 40px;
+            text-shadow: 0 0 12px #ff69b4;
+        }
+        .mix-btn {
+            display: block;
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto 50px auto;
+            background: #ff2d78;
+            color: #fff;
+            padding: 40px 20px;
+            border-radius: 24px;
+            border: none;
+            font-size: 40px;
+            font-weight: 700;
+            text-align: center;
+            cursor: pointer;
+        }
+        .mix-btn:focus,
+        .mix-btn:hover {
+            background: #ff4d94;
+            outline: 4px solid #fff;
+        }
+        .link-list {
+            list-style: none;
+            max-width: 700px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .link-list li {
+            flex: 1 1 140px;
+        }
+        .link-list a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #1a1a1a;
+            color: #fff;
+            text-decoration: none;
+            height: 120px;
+            border-radius: 20px;
+            border: 3px solid #333;
+            font-size: 48px;
+        }
+        .link-list a:hover,
+        .link-list a:focus {
+            background: #2a2a2a;
+            border-color: #ff69b4;
+        }
+        .note {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 22px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <h1>Master Samuel Sex Mix 🥵</h1>
+
+    <button class="mix-btn" onclick="playMix()">🎲 PLAY MIX</button>
+
+    <ul class="link-list" id="links">
+        <li><a href="https://www.xvideos.com/?k=gay+bondage+compilation">⛓️</a></li>
+        <li><a href="https://www.xvideos.com/?k=gay+master+long">🍆</a></li>
+        <li><a href="https://www.xvideos.com/?k=gay+cum+in+mouth+compilation">💦</a></li>
+        <li><a href="https://www.xvideos.com/?k=gay+stepbrother+long">🔥</a></li>
+        <li><a href="https://www.xhamster.com/search/gay+bondage+compilation">🔗</a></li>
+        <li><a href="https://www.xhamster.com/search/gay+cumpilation">👅</a></li>
+        <li><a href="https://www.spankbang.com/s/gay+cumpilation/">🎬</a></li>
+        <li><a href="https://www.spankbang.com/s/gay+bondage/">🖤</a></li>
+    </ul>
+
+    <p class="note">
+        Big button = mixed long videos<br>
+        Emoji buttons = specific themes (10 min+ style)
+    </p>
+
+    <script>
+        function playMix() {
+            var links = document.querySelectorAll('#links a');
+            var randomIndex = Math.floor(Math.random() * links.length);
+            window.location.href = links[randomIndex].href;
+        }
+    </script>
+</body>
+</html>
